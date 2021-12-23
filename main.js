@@ -10,7 +10,7 @@ function setup()
   vdo.hide();
   vdo.size(500,400);
   obdec=ml5.objectDetector("cocossd",ml);
-  document.getElementById("status").innerHTML="status: Detecting Objects";
+
   song = loadSound('YRL6BSM-siren.mp3');
 }
 function draw(){
